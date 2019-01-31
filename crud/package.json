@@ -1,0 +1,30 @@
+{
+  "name": "myapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "query-string": "^6.1.0",
+    "react": "^16.5.0",
+    "react-cropper": "^1.0.1",
+    "react-dom": "^16.5.0",
+    "react-id-swiper": "^1.6.8",
+    "react-image-crop": "^6.0.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-slider-swiper": "^2.0.6",
+    "redux": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start sass",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "sass": "sass --watch src/style/scss:src/style/css"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0"
+  }
+}
